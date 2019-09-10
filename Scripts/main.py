@@ -47,7 +47,7 @@ else:
 
 #建立文件夹的路径
 
-totalPath='c:\\盯控\\照片'
+totalPath='d:\\盯控\\照片'
 filePath=os.path.join(totalPath,str(year)+'年'+str(month)+'月',str(month)+'月'+str(day)+'日')
 
 #判断输入是否以"，"分离

@@ -47,8 +47,8 @@ class PicGet:
         self.toolXouterWorkers = []
         self.doorSouterWorkers = []
         self.doorXouterWorkers = []
-        self.groupTools = self.bot.groups(update=True).search('工器具')[0]
-        self.groupDoor = self.bot.groups(update=True).search('工作门')[0]
+        self.groupTools = self.bot.groups(update=True).search('材料工器具')[0]
+        self.groupDoor = self.bot.groups(update=True).search('天窗作业盯控')[0]
         self.cc = ''
 
         self.workers = []
